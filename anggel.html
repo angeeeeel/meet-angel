@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Meet Angel Galario</title>
+	<link rel="stylesheet" type="text/css" href="angel.css">
+    <!--using font awesome-->
+ 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+	<section>
+        <!--navigation-->
+		<nav>
+            <!--logo-->
+            <a href="#" class="logo">ANGEL <span class="galars">GALARIO</p></a>
+            <!--menu-->
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#connect">Contact me</a></li>
+            
+            </ul>
+        </nav>
+        <!---text-->
+        <div class="text-container">
+            <p>Hello,</p>
+            <p>I am Angel Galario</p>
+            <p>IT Instructor and an aspiring Software Developer</p>
+            <button class="hire-btn"onclick="openGmail()">HIRE ME</button>
+        <script>
+        function openGmail() {
+            window.open("https://mail.google.com/mail/?view=cm&fs=1&to=1.angelmaegalario@gmail.com&su=You are Hired&body=", "_blank");
+        }
+    </script>
+            <button class="down-cv" onclick="viewFile()">VIEW MY CV</button>
+
+                <script>
+        function viewFile() {
+            window.open("./cv.pdf", "_blank");
+        }
+    </script>
+
+        </div>
+        <!--model-->
+        <img src="" class="model" alt="">
+
+    </section>
+
+     <!---about section--->
+    <div class="about-container">
+        <!--img-->
+        <img src="./mypics.jpg">
+
+        <!--about text-->
+        <div class="about-text">
+           <a id="about">About Me</a>
+           <p>Frontend Developer</p>
+           <p>Hi, I am Angel Galario, an IT Instructor at a private school and an aspiring software developer. I have experience in web development, including HTML, CSS, JavaScript, JSP, and various frameworks.I also have knowledge in programming languages such as C# and Java. I have a strong passion for coding, problem-solving, and continuously expanding my technical skills. I am eager to apply my knowledge and grow further in the field of software development."
+           </p> 
+           <p>I’m open to new opportunities—reach out to connect! </p>
+
+           <!--button-->
+           <button onclick="openGmail()">Hire Me</button>
+            <script>
+        function openGmail() {
+            window.open("https://mail.google.com/mail/?view=cm&fs=1&to=1.angelmaegalario@gmail.com&su=You are Hired&body=", "_blank");
+        }
+    </script>
+           <button onclick="openGmail()">Download CV</button>
+
+
+                <script>
+        function viewFile() {
+            window.open("./cv.pdf", "_blank");
+        }
+    </script>
+
+        </div>                                                
+    </div>
+
+
+
+<!--contact me-->
+    <div class="contact-me">
+        <button id="connect" onclick="openMessenger()">Let's Connect!</button>
+
+        <script>
+        function openMessenger() {
+            window.location.href = "https://m.me/angel.sevilla.galario"; // Replace 'your_username' with your Messenger username or ID
+        }
+    </script>
+    </div>
+
+    <!--footer-->
+    <footer>
+    <p>ANGEL SEVILLA GALARIO</p>
+    <p>Exodus 14:14 <br>
+        "The Lord will fight for you, you need only to be still"
+    </p>
+   
+        <!--copyright-->
+            <p class="copyright">Angel Mae S. Galario since 1999</p>
+    </footer>
+    <!--attached social bar-->
+
+   
+
+</body>
+</html>
